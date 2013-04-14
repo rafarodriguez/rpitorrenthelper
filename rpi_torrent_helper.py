@@ -8,7 +8,7 @@ import urllib
 import smtplib
 import sys
 
-SUBSCRIPTION_LIST_FILE = 'subscription_list.json'
+SUBSCRIPTION_LIST_FILE = '/home/pi/scripts/rpitorrenthelper/subscription_list.json'
 
 def GetFeedList():
   feed_list = []
@@ -58,7 +58,7 @@ def GetTorrents(feed_list):
 def AddTorrentsToTransmission(torrents):
   for torrent in torrents:
       torrent = '\"%s\"' % torrent
-      call(["/opt/bin/transmission-remote", "-a", torrent])
+      call(['transmission-remote', '-a', torrent])
 
 def main():
   feed_list = GetFeedList()
