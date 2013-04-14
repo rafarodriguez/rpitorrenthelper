@@ -1,8 +1,6 @@
-{
-"feeds": [
-    {"link": "http://www.clearbits.net/feeds/creator/80-make-magazine.rss",
-     "last_sync": "Fri, 20 Feb 2009 15:38:46 +0000"},
-    {"link": "http://www.ezrss.it/search/index.php?show_name=Game+of+thrones&date=&quality=HDTV&quality_exact=true&release_group=&mode=rss",
-     "last_sync": "Sun, 31 Mar 2013 20:11:07 -0500"}
+[
+  {
+    "link": "http://www.clearbits.net/feeds/creator/80-make-magazine.rss", 
+    "last_sync": "Sun, 07 Apr 2012 20:51:13 -0500"
+  }
 ]
-}
